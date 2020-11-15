@@ -216,6 +216,14 @@
     <Compile Include="Migrations\202010230028180_changeSomeMovieProperty.designer.cs">
       <DependentUpon>202010230028180_changeSomeMovieProperty.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011152008502_MakeMovieNameRequired.cs" />
+    <Compile Include="Migrations\202011152008502_MakeMovieNameRequired.designer.cs">
+      <DependentUpon>202011152008502_MakeMovieNameRequired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011152056023_ChangeSomeMovieProperties.cs" />
+    <Compile Include="Migrations\202011152056023_ChangeSomeMovieProperties.designer.cs">
+      <DependentUpon>202011152056023_ChangeSomeMovieProperties.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -346,6 +354,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010230028180_changeSomeMovieProperty.resx">
       <DependentUpon>202010230028180_changeSomeMovieProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011152008502_MakeMovieNameRequired.resx">
+      <DependentUpon>202011152008502_MakeMovieNameRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011152056023_ChangeSomeMovieProperties.resx">
+      <DependentUpon>202011152056023_ChangeSomeMovieProperties.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
