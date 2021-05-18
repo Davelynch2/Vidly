@@ -154,6 +154,7 @@
     <Compile Include="Controllers\MovieController.cs" />
     <Compile Include="DB\VidlyDbContext.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Dtos\MembershipTypeDTO.cs" />
     <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
